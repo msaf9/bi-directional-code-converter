@@ -17,7 +17,7 @@ Design and development of Bi-directional code converter: Binary code to Grey cod
 
 ### Table
 | Decimal Number | Binary Code | Grey Code   |
-| -------------- | ----------- | ----------- |
+|     :----:     |    :----:   |    :----:   |
 | 0              | 0000        |0000         |          
 | 1              | 0001        |0001         |
 | 2              | 0010        |0011         |          
