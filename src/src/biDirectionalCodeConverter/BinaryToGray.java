@@ -3,16 +3,16 @@ package biDirectionalCodeConverter;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class BinaryToGrey {
+public class BinaryToGray {
 
-	public static int toGrey(int decimal) {
+	public static int toGray(int decimal) {
 
 		int i = 0;
-		int greyInteger = 0;
+		int grayInteger = 0;
 		int binary = DecimalToBinary.toBinary(decimal);
 
 		ArrayList<Integer> binaryArrayList = new ArrayList<>();
-		ArrayList<Integer> greyArrayList = new ArrayList<>();
+		ArrayList<Integer> grayArrayList = new ArrayList<>();
 
 		while (binary > 0) {
 			binaryArrayList.add(i++, binary % 10);
@@ -23,15 +23,15 @@ public class BinaryToGrey {
 
 		for (int j = 0; j < binaryArrayList.size(); j++) {
 			if (j == 0) {
-				greyArrayList.add(j, binaryArrayList.get(j));
+				grayArrayList.add(j, binaryArrayList.get(j));
 			} else {
-				greyArrayList.add(j, (binaryArrayList.get(j - 1) ^ binaryArrayList.get(j)));
+				grayArrayList.add(j, (binaryArrayList.get(j - 1) ^ binaryArrayList.get(j)));
 			}
 		}
 
-		for (int j = 0; j < greyArrayList.size(); j++) {
-			greyInteger = greyArrayList.get(j) + greyInteger * 10;
+		for (int j = 0; j < grayArrayList.size(); j++) {
+			grayInteger = grayArrayList.get(j) + grayInteger * 10;
 		}
-		return greyInteger;
+		return grayInteger;
 	}
 }
