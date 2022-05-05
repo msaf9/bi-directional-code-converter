@@ -1,4 +1,4 @@
-# Bi-directional code converter: Binary code to Grey code & Grey code to Binary code.
+# Bi-directional code converter: Binary code to Gray code & Gray code to Binary code.
 
 ## Table of contents
 1. Introduction
@@ -8,7 +8,7 @@
 5. License
 
 ## Introduction
-Design and development of Bi-directional code converter: Binary code to Grey code & Grey code to Binary code using Logisim.
+Design and development of Bi-directional code converter: Binary code to Gray code & Gray code to Binary code using Logisim.
 
 - Course Name: Digital System Design
 - Course Code: 15EC1101
@@ -16,7 +16,7 @@ Design and development of Bi-directional code converter: Binary code to Grey cod
 - Academic Year: 2016 - 17
 
 ### Table
-| Decimal Number | Binary Code | Grey Code   |
+| Decimal Number | Binary Code | Gray Code   |
 |     :----:     |    :----:   |    :----:   |
 | 0              | 0000        |0000         |          
 | 1              | 0001        |0001         |
