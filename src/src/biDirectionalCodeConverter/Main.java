@@ -15,9 +15,13 @@ public class Main {
 		gray = BinaryToGray.toGray(decimal);
 
 		System.out.print("The binary code of the decimal number " + decimal + " is ");
-		System.out.println(String.format("%04d", binary).substring(0));
+		System.out.println(String.format("%04d", binary).substring(0) + ".");
 		System.out.print("The gray code of the decimal number " + decimal + " is ");
-		System.out.println(String.format("%04d", gray).substring(0));
-
+		System.out.println(String.format("%04d", gray).substring(0) + ".");
+		System.out.println("_____________________________________________\n");
+		System.out.println("The binary code of the gray code " + String.format("%04d", gray).substring(0) + " is "
+				+ String.format("%04d", binary).substring(0) + ".");
+		System.out.println("The gray code of the binary code " + String.format("%04d", binary).substring(0) + " is "
+				+ String.format("%04d", gray).substring(0) + ".");
 	}
 }
