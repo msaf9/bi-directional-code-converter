@@ -2,6 +2,7 @@
 
 - [Bi-directional code converter: Binary code to Gray code & Gray code to Binary code.](#bi-directional-code-converter-binary-code-to-gray-code--gray-code-to-binary-code)
   - [Introduction](#introduction)
+    - [Course Information](#course-information)
     - [Table](#table)
   - [Technologies](#technologies)
   - [Project status](#project-status)
@@ -12,6 +13,7 @@
 ## Introduction
 Design and development of Bi-directional code converter: Binary code to Gray code & Gray code to Binary code using Logisim.
 
+### Course Information
 - Course Name: Digital System Design
 - Course Code: 15EC1101
 - Course Credits: 4
