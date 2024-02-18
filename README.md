@@ -48,8 +48,8 @@ Design and development of Bi-directional code converter: Binary code to Gray cod
 ## Installation
 ### Get repository
 ```git
-git https://github.com/msaf9/BidirectionalCodeConverter.git
-cd BidirectionalCodeConverter
+git https://github.com/msaf9/bi-directional-code-converter.git
+cd bi-directional-code-converter
 ```
 
 ## License
