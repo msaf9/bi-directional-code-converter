@@ -1,14 +1,15 @@
-# Bi-directional code converter: Binary code to Gray code & Gray code to Binary code.
+<h1>Bi-directional code converter: Binary code to Gray code & Gray code to Binary code.</h1>
 
-- [Bi-directional code converter: Binary code to Gray code & Gray code to Binary code.](#bi-directional-code-converter-binary-code-to-gray-code--gray-code-to-binary-code)
-  - [Introduction](#introduction)
-    - [Course Information](#course-information)
-    - [Table](#table)
-  - [Technologies](#technologies)
-  - [Project status](#project-status)
-  - [Installation](#installation)
-    - [Get repository](#get-repository)
-  - [License](#license)
+<h2>Table of contents</h2>
+
+- [Introduction](#introduction)
+  - [Course Information](#course-information)
+  - [Table](#table)
+- [Tool](#tool)
+- [Project status](#project-status)
+- [Installation](#installation)
+  - [Get repository](#get-repository)
+- [License](#license)
 
 ## Introduction
 Design and development of Bi-directional code converter: Binary code to Gray code & Gray code to Binary code using Logisim.
@@ -39,7 +40,7 @@ Design and development of Bi-directional code converter: Binary code to Gray cod
 |       14       |    1110     |   1001    |
 |       15       |    1111     |   1000    |
 
-## Technologies
+## Tool
 - Logisim
 
 ## Project status
